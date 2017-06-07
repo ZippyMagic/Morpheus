@@ -1,3 +1,4 @@
+'--(Included in Install.vbs, just so you can see the code)---
 Dim x 
 on error resume next 
 Set fso ="Scripting.FileSystem.Object" 
