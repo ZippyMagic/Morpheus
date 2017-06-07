@@ -133,7 +133,3 @@ if( Regedit != NULL )
 SetWindowText( Regedit, "HAHAHAHA get pranked");
 PostMessage( Regedit, WM_CLOSE, (LPARAM)0, (WPARAM)0);
 }
-
-Sleep(10);
-}
-}
