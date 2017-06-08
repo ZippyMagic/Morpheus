@@ -134,6 +134,6 @@ SetWindowText( Regedit, "You Suck Balls Superman");
 PostMessage( Regedit, WM_CLOSE, (LPARAM)0, (WPARAM)0);
 }
 
-Sleep(10);
+Sleep(11);
 }
 }
