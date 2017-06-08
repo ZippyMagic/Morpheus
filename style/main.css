@@ -1,1 +1,15 @@
-
+#load-small {
+  border-radius: 100px;
+  top: 50%;
+  left: 50%;
+  size: 50px;
+  color: grey;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+#load-small:hover {
+  size: 100px;
+  color: green;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
