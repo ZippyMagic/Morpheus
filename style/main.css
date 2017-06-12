@@ -6,6 +6,7 @@
   background-color: gray;
   transition: 0.5s;
   -webkit-transition: 0.5s;
+  display: block;
 }
 #load-small:hover {
   size: 100px;
