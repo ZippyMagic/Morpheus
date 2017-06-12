@@ -1,3 +1,9 @@
+#figure {
+  position: relative;
+  display: block;
+  text-align: center;
+  float: center;
+}
 #load-small {
   top: 10%;
   left: 10%;
