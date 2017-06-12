@@ -1,20 +1,19 @@
 #load-small {
 	top: 50%;
-  	left: 50%;
-  	display: block;
-  	width: 100px;
+  left: 50%;
+  display: block;
+  width: 100px;
 	height: 100px;
 	background: green;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-  	transition: 0.5s;
-  	-webkit-transition: 0.5s;
-}
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 #load-small:hover {
-  	size: 100px;
-  	background-color: darkGreen;
-  	transition: 0.5s;
-  	-webkit-transition: 0.5s;
+  size: 100px;
+  background-color: darkGreen;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
