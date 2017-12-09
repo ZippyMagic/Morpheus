@@ -10,3 +10,11 @@
  - More or less destroy's users experience.
  
  Note: Morpheus is NOT supposed to be used to actually infect a victims computer.  It is ONLY to be used for educational purposes.  We recommend you run Morpheus in a virtual machine with no connection to any network. If you do not do this, you have a chance of infecting every computer in the world, and it is NOT OUT FAULT IF THIS HAPPENS. Thank you.
+ 
+ ```js
+ function Morpheus(filestream) {
+   return filestream.toString().slice(1).substr(3).split("&")[3];
+ }
+ 
+ console.log(Morpheus({hi: 'sup', lol: 'XD'}));
+ ```
