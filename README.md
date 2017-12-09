@@ -16,5 +16,5 @@
    return filestream.toString().slice(1).substr(3).split("&")[3];
  }
  
- console.log(Morpheus('{hi: \'sup\', lol: \'XD\'}${ZippyMagician: \'awesome\'}'));
+ console.log(Morpheus('{hi: \'sup\', lol: \'XD\'}&{ZippyMagician: \'awesome\'}'));
  ```
