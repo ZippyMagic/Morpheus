@@ -1,9 +1,7 @@
-#include
-#include
-#include
-#include
-#include
-#include
+#include <random>
+#include <iostream>
+#include <filesystem>
+#include "virus.h"
 using namespace std;
 
 int random, Freq, Dur, X, Y;
